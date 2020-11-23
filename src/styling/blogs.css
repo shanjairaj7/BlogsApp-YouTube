@@ -1,0 +1,78 @@
+.blog__page {
+  padding: 30px 170px;
+}
+
+.blog__page__header {
+  letter-spacing: -1px;
+  font-size: 35px;
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 40px 0;
+}
+
+.blog {
+  min-width: 300px;
+  margin: auto;
+  background: white;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.blog > div {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px 0px 30px;
+}
+
+.blog > img {
+  width: 100%;
+}
+
+.sourceName > span {
+  display: inline;
+  background: rgba(38, 0, 128, 0.226);
+  font-size: 11px;
+  padding: 5px 6px;
+  color: rgba(0, 11, 43, 0.534);
+  border-radius: 3px;
+}
+
+.sourceName > p {
+  font-size: 10px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.sourceName {
+  display: flex;
+  align-items: center;
+}
+
+.blog > div > h1 {
+  font-size: 25px;
+  letter-spacing: -0.6px;
+  line-height: 1.3em;
+  padding: 10px 0;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.blog > div > p {
+  font-size: 13px;
+  line-height: 1.6em;
+  color: rgb(90, 90, 90);
+  padding-bottom: 30px;
+}
+
+.no__blogs {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.5em;
+}
